@@ -1,0 +1,50 @@
+# Downloading Image (Pulling image)
+docker pull <Image Name>
+
+#See all pulled image
+docker image
+
+# Delete Image
+docker rmi <image_id>
+
+#Docker RUN
+docker run --name=<container_name> ..... <image_name>
+
+#See running container
+docker ps
+
+#See all container running or exited(stopped)
+docker ps -a
+
+#Stop Container
+docker stop <container_id>
+
+#Remove Container
+docker rm <container_id>
+
+#See space occupied by docker
+docker system df
+
+#Remove all the unused image
+docker image prune -a
+
+#Remove all stopped container
+docker container prune
+
+#Remove all unused things
+docker system prune
+
+#Remove all build cache
+docker builder prune -a
+
+#Enter inside the container
+docker exec -it <container_id> bash
+
+#See container Logs
+docker logs <container_id>
+
+#See container Details
+docker inspect <container_id>
+
+
+

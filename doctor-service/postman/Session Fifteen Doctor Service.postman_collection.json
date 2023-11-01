@@ -1,0 +1,137 @@
+{
+	"info": {
+		"_postman_id": "ae2f1bd6-d35e-4d7d-ae2b-3ed06bac217b",
+		"name": "Session Fifteen Doctor Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "369370"
+	},
+	"item": [
+		{
+			"name": "Doctor Ping",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/doctor-service/api/v1/ping",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"doctor-service",
+						"api",
+						"v1",
+						"ping"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Doctor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/doctor-service/api/v1/doctor",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"doctor-service",
+						"api",
+						"v1",
+						"doctor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Doctor",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/doctor-service/api/v1/doctor",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"doctor-service",
+						"api",
+						"v1",
+						"doctor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Doctor",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/doctor-service/api/v1/doctor",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"doctor-service",
+						"api",
+						"v1",
+						"doctor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Doctor List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/doctor-service/api/v1/doctor",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"doctor-service",
+						"api",
+						"v1",
+						"doctor"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "BASE_URL",
+			"value": "localhost:8085",
+			"type": "string"
+		}
+	]
+}
