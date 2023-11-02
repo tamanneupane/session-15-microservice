@@ -10,7 +10,7 @@ public class AppointmentController {
 
     @GetMapping(value = "/ping")
     public String ping(){
-        return "UP";
+        return "UP appointment-service-2";
     }
 
 }
